@@ -1,0 +1,1 @@
+Default location to to storge ImageNet-C and InageNet dataset
