@@ -1,4 +1,6 @@
-**Robustness Evaluation for Self-supervised Learning Methods**
+**Title - "Can Self-Supervised Representation Learning Methods Withstand Distribution Shifts and Corruptions?"**
+
+
 
 This repository evaluates rbosutness of self-supervised learning methods for out-of-distribution samples, algorithmically generated corruptions (blur, noise) applied to the ImageNet test-set. analysis is carried out for qualitatively and quantitatively.
 
@@ -18,7 +20,30 @@ This repository evaluates rbosutness of self-supervised learning methods for out
  -Mean Corrpution Error
  -Class Activations
 
-more details soon..
+
+**A. Prerequisites** 
+•	Download the complete ImageNet-C dataset with all 19-corruptions having all 5 severity levels.
+•	Download and store the ImageNet validation store.
+•	Preferably place both the datasets on "ssl_robustness/data" to use default settings for command line inputs.
+•	SSL pretrained models’ weights are available at mmengine (link: https://github.com/open-mmlab/mmselfsup) for chosen SSL methods (simCLR, simSiam, barlow twins, dino (RN50), SwAE, and BYOL). 
+•	Installations - pytorch 1.1x with torchvision, mmengine, tqdm, pandas
+
+**B. Quantitative Evaluation for all SSL methods with ResNet50 backbone on ImageNet-C corruption for MCE**
+   *Pretrained weights for each SSL model should be stored under models’ directory in their respective directory
+   '''python -m eval_mean_corruption_error --test_dataset <path for imagenet_c dataset> --output <path to save results> --device <which GPU>'''
+
+**C. Quantitative Evaluation for DINO SSL method with ViT transformer backbone on ImageNet-C corruptions for MCE**
+    *Pretrained weights are fetched from online resource
+   '''python -m eval_mean_corruption_error_vit --test_dataset <path for imagenet_c dataset> --output <path to save results> --device <which GPU>'''
+
+**D. Qualitative Evaluation for all SSL method with ResNet50 backbone on ImageNet-C and comparison with standard ImageNet images**
+   *Pretrained weights for each SSL model should be stored under models’ directory in their respective directory
+   '''python -m generate_gradcams --test_dataset <path for imagenet_c dataset> --imagenet_path <imagenet dataset path> --output <path to save results> --device <which GPU>'''
+
+**E. Compute Structural Similarity for snow, elastic transform, and saturate corruptions**   
+    *Pretrained weights for each SSL model should be stored under models’ directory in their respective directory
+   '''python -m compute_ssim --test_dataset <path for imagenet_c dataset> --imagenet_path <imagenet dataset path> --output <path to save results> --device <which GPU>'''
+
 
 
 
