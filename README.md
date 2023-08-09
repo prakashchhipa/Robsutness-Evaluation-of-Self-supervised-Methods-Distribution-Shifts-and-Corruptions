@@ -3,10 +3,12 @@ Can Self-Supervised Representation Learning Methods Withstand Distribution Shift
 
 # Article
 [Arxiv Version](https://arxiv.org/pdf/2308.02525.pdf)
+
 ICCV workshop proceedings on CVF
 
 # Venue
-Accepted at [CVF International Conference on Computer Vision Workshops](https://iccv2023.thecvf.com/list.of.accepted.workshops-90.php) (ICCVW 2023)
+Accepted at [CVF International Conference on Computer Vision Workshop](https://iccv2023.thecvf.com/list.of.accepted.workshops-90.php)(ICCVW 2023), Paris, France.
+
 Workshop Name:  [Workshop and Challenges for Out Of Distribution Generalization in Computer Vision in conjuction with ICCV'23](http://www.ood-cv.org/index.html)
 
 # Abstract
