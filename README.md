@@ -1,14 +1,21 @@
-**Title - "Can Self-Supervised Representation Learning Methods Withstand Distribution Shifts and Corruptions?"**
+# Title
+Can Self-Supervised Representation Learning Methods Withstand Distribution Shifts and Corruptions?
 
+# Article
+[Arxiv Version](https://arxiv.org/pdf/2308.02525.pdf)
+ICCV workshop proceedings on CVF
 
+# Venue
+Accepted at [CVF International Conference on Computer Vision Workshops](https://iccv2023.thecvf.com/list.of.accepted.workshops-90.php) (ICCVW 2023)
+Workshop Name:  [Workshop and Challenges for Out Of Distribution Generalization in Computer Vision in conjuction with ICCV'23](http://www.ood-cv.org/index.html)
 
-This repository evaluates rbosutness of self-supervised learning methods for out-of-distribution samples, algorithmically generated corruptions (blur, noise) applied to the ImageNet test-set. analysis is carried out for qualitatively and quantitatively.
+# Abstract
+Self-supervised learning in computer vision aims to leverage the inherent structure and relationships within data to learn meaningful representations without explicit human annotation, enabling a holistic understanding of visual scenes. 
+Robustness in vision machine learning ensures reliable and consistent performance, enhancing generalization, adaptability, and resistance to noise, variations, and adversarial attacks. 
+Self-supervised paradigms, namely contrastive learning, knowledge distillation, mutual information maximization, and clustering, have been considered to have shown advances in invariant learning representations.
+This work investigates the robustness of learned representations of self-supervised learning approaches focusing on distribution shifts and image corruptions in computer vision. Detailed experiments have been conducted to study the robustness of self-supervised learning methods on distribution shifts and image corruptions. The empirical analysis demonstrates a clear relationship between the performance of learned representations within self-supervised paradigms and the severity of distribution shifts and corruptions. Notably, higher levels of shifts and corruptions are found to significantly diminish the robustness of the learned representations. These findings highlight the critical impact of distribution shifts and image corruptions on the performance and resilience of self-supervised learning methods, emphasizing the need for effective strategies to mitigate their adverse effects. The study strongly advocates for future research in the field of self-supervised representation learning to prioritize the key aspects of safety and robustness in order to ensure practical applicability.
 
-*Dataset (all corruptions, all difficulty levels)* 
- -ImageNet-C, [link](https://zenodo.org/record/2235448#.ZA4ct3bMI2w)
-
-*Self-supervised Learning Methods*
-
+# Evaluated Self-supervised Representation Learning Methods
 1. [A simple framework for contrastive learning of visual representations (simCLR)](http://proceedings.mlr.press/v119/chen20j.html)
 2. [Exploring Simple Siamese Representation Learning (SimSiam)](https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Exploring_Simple_Siamese_Representation_Learning_CVPR_2021_paper.html)
 3. [Bootstrap Your Own Latent - A New Approach to Self-Supervised Learning(BYOL)](https://proceedings.neurips.cc/paper/2020/hash/f3ada80d5c4ee70142b17b8192b2958e-Abstract.html) 
@@ -20,6 +27,11 @@ This repository evaluates rbosutness of self-supervised learning methods for out
  -Mean Corrpution Error
  -Class Activations
 
+# Dataset
+
+Robustness Evaluation on ImageNet-C (all corruptions, all difficulty levels): [link](https://zenodo.org/record/2235448#.ZA4ct3bMI2w)
+
+# Reproducibility Instrucitons
 
 **A. Prerequisites** 
 •	Download the complete ImageNet-C dataset with all 19-corruptions having all 5 severity levels.
