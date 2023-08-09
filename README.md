@@ -7,7 +7,7 @@ Can Self-Supervised Representation Learning Methods Withstand Distribution Shift
 ICCV workshop proceedings on CVF
 
 # Venue
-Accepted at [CVF International Conference on Computer Vision Workshop](https://iccv2023.thecvf.com/list.of.accepted.workshops-90.php)(ICCVW 2023), Paris, France.
+Accepted at [CVF International Conference on Computer Vision Workshop](https://iccv2023.thecvf.com/list.of.accepted.workshops-90.php) (ICCVW 2023), Paris, France.
 
 Workshop Name:  [Workshop and Challenges for Out Of Distribution Generalization in Computer Vision in conjuction with ICCV'23](http://www.ood-cv.org/index.html)
 
@@ -33,7 +33,7 @@ This work investigates the robustness of learned representations of self-supervi
 
 Robustness Evaluation on ImageNet-C (all corruptions, all difficulty levels): [link](https://zenodo.org/record/2235448#.ZA4ct3bMI2w)
 
-# Reproducibility Instrucitons
+# Reproducibility Instructions
 
 **A. Prerequisites** 
 •	Download the complete ImageNet-C dataset with all 19-corruptions having all 5 severity levels.
