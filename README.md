@@ -47,6 +47,18 @@ This work investigates the robustness of learned representations of self-supervi
 
 Robustness Evaluation on ImageNet-C (all corruptions, all difficulty levels): [link](https://zenodo.org/record/2235448#.ZA4ct3bMI2w)
 
+# Results
+
+Robustness Perofrmance on ImageNet-C corruptions
+<p align="center" >
+  <img src="https://github.com/prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions/blob/main/contents/all_corruptions.PNG" height= 80%  width= 80%>
+</p>
+
+Qualtivative analysis shown in exmaple of dog in glass corrputions
+<p align="center" >
+  <img src="https://github.com/prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions/blob/main/contents/glass_visual_results.PNG" height= 70%  width= 70%>
+</p>
+
 # Reproducibility Instructions
 
 **A. Prerequisites** 
