@@ -6,7 +6,7 @@ Can Self-Supervised Representation Learning Methods Withstand Distribution Shift
 
 ICCV workshop proceedings on CVF
 
-# Poster & Presentation Video 
+# Poster & Presentation Slides 
 
 **Click [here](https://github.com/prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions/blob/main/contents/ICCV23_OOD-Workshop_SSL_robustness_poster.pdf) for enlarged view**
 <p align="center" >
