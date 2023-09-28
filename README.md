@@ -14,7 +14,7 @@ ICCV workshop proceedings on CVF
 </p>
 
 **Slides for short video presentation describing the work**
-**Click [here](https://github.com/prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions/blob/main/contents/ICCV_OOD_Workshop_Presentation_SSL_robustness.pdf) for enlarged view**
+**Click [here](https://github.com/prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions/blob/main/contents/ICCV_OOD_Workshop_Presentation_SSL_robustness.pdf) slides deck**
 <p align="center" >
   <img src="https://github.com/prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions/blob/main/contents/slides_logo.PNG" height= 70%  width= 50%>
 </p>
