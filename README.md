@@ -6,6 +6,20 @@ Can Self-Supervised Representation Learning Methods Withstand Distribution Shift
 
 ICCV workshop proceedings on CVF
 
+# Poster & Presentation Video 
+
+**Click [here](https://github.com/prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions/blob/main/contents/ICCV23_OOD-Workshop_SSL_robustness_poster.pdf) for enlarged view**
+<p align="center" >
+  <img src="https://github.com/prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions/blob/main/contents/iccvw_poster_logo.png" height= 30%  width= 50%>
+</p>
+
+**Slides for short video presentation describing the work**
+**Click [here](https://github.com/prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions/blob/main/contents/ICCV_OOD_Workshop_Presentation_SSL_robustness.pdf) for enlarged view**
+<p align="center" >
+  <img src="https://github.com/prakashchhipa/Robsutness-Evaluation-of-Self-supervised-Methods-Distribution-Shifts-and-Corruptions/blob/main/contents/slides_logo.PNG" height= 70%  width= 50%>
+</p>
+
+
 # Venue
 Accepted at [CVF International Conference on Computer Vision Workshop](https://iccv2023.thecvf.com/list.of.accepted.workshops-90.php) (ICCVW 2023), Paris, France.
 
