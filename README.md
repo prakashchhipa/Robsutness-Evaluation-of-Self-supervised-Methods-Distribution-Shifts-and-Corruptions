@@ -4,7 +4,7 @@ Can Self-Supervised Representation Learning Methods Withstand Distribution Shift
 # Article
 [Arxiv Version](https://arxiv.org/pdf/2308.02525.pdf)
 
-ICCV workshop proceedings on CVF
+[ICCV 2013 workshop proceedings on CVF](https://openaccess.thecvf.com/content/ICCV2023W/OODCV/html/Chhipa_Can_Self-Supervised_Representation_Learning_MethodsWithstand_Distribution_Shifts_and_Corruptions_ICCVW_2023_paper.html)
 
 # Poster & Presentation Slides 
 
